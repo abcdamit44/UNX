@@ -132,6 +132,7 @@ header {
     top: 20px;
     left: 20%;
     animation: bg1 3s infinite ease-in-out alternate;
+    z-index: -1;
 }
 
 .bg2 {
@@ -145,6 +146,7 @@ header {
     top: 20px;
     right: 20%;
     animation: bg2 3s infinite ease-in-out alternate;
+    z-index: -1;
 }
 
 @keyframes bg1 {
